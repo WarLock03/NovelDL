@@ -1,10 +1,7 @@
 [
   {
     "id": "00008",
-    "title": {
-      "english": "Date A Live",
-      "romaji": "Date A Live"
-    },
+    "title_english": "Date A Live",
     "cover": "https://i0.wp.com/jnovels.com/wp-content/uploads/2024/06/Date-A-Live-v12-Disaster-Itsuka.jpg?w=500&ssl=1",
     "status": "Releasing",
     "type": "Light Novel",
@@ -76,10 +73,7 @@
   },
   {
     "id": "00007",
-    "title": {
-      "english": "Let’s Get to Villainessin’: Stratagems of a Former Commoner",
-      "romaji": "Saa, Akuyaku Reijou no Oshigoto wo Hajimemashou: Moto Shomin no Watashi ga Idomu Zunousen"
-    },
+    "title_english": "Let’s Get to Villainessin’: Stratagems of a Former Commoner",
     "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx179956-u91T9Jd6RLdh.jpg",
     "status": "Releasing",
     "type": "Light Novel",
@@ -96,10 +90,7 @@
   },
   {
     "id": "00006",
-    "title": {
-      "english": "The Former Assassin Who Got Reincarnated as a Noble Girl",
-      "romaji": "Moto Ansatsusha, Tensei Shite Kizoku no Reijou ni Narimashita."
-    },
+    "title_english": "The Former Assassin Who Got Reincarnated as a Noble Girl",
     "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx165106-jHnFBgoc08BG.jpg",
     "status": "Releasing",
     "type": "Light Novel",
@@ -116,10 +107,7 @@
   },
   {
     "id": "00005",
-    "title": {
-      "english": "The Vexations of a Shut-In Vampire Princess",
-      "romaji": "Hikikomari Kyuuketsuki no Monmon"
-    },
+    "title_english": "The Vexations of a Shut-In Vampire Princess",
     "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx119283-iuhI6oQSEuSS.jpg",
     "status": "Releasing",
     "type": "Light Novel",
@@ -166,10 +154,7 @@
   },
   {
     "id": "00004",
-    "title": {
-      "english": "Days with My Stepsister",
-      "romaji": "Gimai Seikatsu"
-    },
+    "title_english": "Days with My Stepsister",
     "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx126268-c3BmsZ0LlJWr.png",
     "status": "Releasing",
     "type": "Light Novel",
@@ -196,10 +181,7 @@
   },
   {
     "id": "00003",
-    "title": {
-      "english": "Villainess Level 99: I May Be the Hidden Boss but I'm Not the Demon Lord",
-      "romaji": "Akuyaku Reijou Level 99: Watashi wa Ura Boss desu ga Maou de wa Arimasen"
-    },
+    "title_english": "Villainess Level 99: I May Be the Hidden Boss but I'm Not the Demon Lord",
     "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx122786-VEhqnFrMgRKv.png",
     "status": "Releasing",
     "type": "Light Novel",
@@ -241,10 +223,7 @@
   },
   {
     "id": "00002",
-    "title": {
-      "english": "You Were Experienced, I Was Not: Our Dating Story",
-      "romaji": "Keikenzumi na Kimi to, Keiken Zero na Ore ga, Otsukiai suru Hanashi."
-    },
+    "title_english": "You Were Experienced, I Was Not: Our Dating Story",
     "cover": "https://i0.wp.com/jnovels.com/wp-content/uploads/2021/05/1-8.jpg?w=500&ssl=1",
     "status": "Releasing",
     "type": "Light Novel",
@@ -276,10 +255,7 @@
   },
   {
     "id": "00001",
-    "title": {
-      "english": "Alya Sometimes Hides Her Feelings in Russian",
-      "romaji": "Tokidoki Bosotto Russiago de Dereru Tonari no Alya-san"
-    },
+    "title_english": "Alya Sometimes Hides Her Feelings in Russian",
     "cover": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx130687-yny5jDh62wbA.jpg",
     "status": "Releasing",
     "type": "Light Novel",
