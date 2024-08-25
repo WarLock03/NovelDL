@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+        
+    </head>
+    <body>
+        
+        <h1 id="key"></h1>
+        
+        <script type="text/javascript" charset="utf-8">
+            function getQueryParam(key) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(key);
+  }
+  const dataId = getQueryParam("code");
+  
+  document.getElementById("key").innerHtml = dataId;
+  
+        </script>
+        
+    </body>
+</html>
