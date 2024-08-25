@@ -1,25 +1,57 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
-        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title></title>
-        
-    </head>
-    <body>
-        
-        <h1 id="key"></h1>
-        
-        <script type="text/javascript" charset="utf-8">
-            function getQueryParam(key) {
-    const urlParams = new URLSearchParams(window.location.search);
-    return urlParams.get(key);
-  }
-  const dataId = getQueryParam("code");
-  
-  document.getElementById("key").innerHtml = dataId;
-  
-        </script>
-        
-    </body>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get Anilist Code</title>
+    <style type="text/css" media="all">
+      body {
+        max-width: 100%;
+        height: 100vh;
+        background-color: #0b1024;
+        padding: 0;
+      }
+      .main {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+      }
+      .field {
+        width: inherit;
+        height: auto;
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .field span {
+        color: #000;
+        font-size: 13pt;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="field">
+        <span id="anilist-key">Here is you Token</span>
+      </div>
+    </div>
+
+    <script type="text/javascript" charset="utf-8">
+      function getQueryParam(key) {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(key);
+      }
+      const dataId = getQueryParam("code");
+
+      document.getElementById("anilist-key").innerHtml = dataId;
+    </script>
+  </body>
 </html>
