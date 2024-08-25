@@ -32,16 +32,17 @@
         align-items: center;
         overflow: scroll;
       }
-      .field span {
+      .field p {
         color: #000;
         font-size: 13pt;
+        max-width: 100%;
       }
     </style>
   </head>
   <body>
     <div class="main">
       <div class="field">
-        <span id="anilist-key">Here is you Token</span>
+        <p id="anilist-key">Here is you Token</p>
       </div>
     </div>
 
@@ -52,7 +53,7 @@
       }
       const dataId = getQueryParam("code");
     
-      document.getElementById("anilist-key").innerHTML = dataId;
+      document.getElementById("anilist-key").textContent = dataId;
     </script>
   </body>
 </html>
